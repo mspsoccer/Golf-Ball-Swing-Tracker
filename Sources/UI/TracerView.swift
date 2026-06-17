@@ -29,7 +29,6 @@ final class TracerCanvas: UIView {
 }
 
 /// The concrete TracerRendering implementation the ViewModel talks to.
-/// Instantiate once, pass to TrackingViewModel(renderer:), and embed via TracerView.
 public final class TracerRenderer: TracerRendering {
 
     /// Embed this view in the SwiftUI hierarchy via TracerView.
