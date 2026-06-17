@@ -3,7 +3,7 @@
 > **Development Status:** Active development in progress. Core computer vision tracking logic and location services are currently being implemented and tested.
 
 ## Overview
-An iOS application built to autonomously track a golf ball's flight path directly from mobile camera footage. The system processes video frames to identify the ball's trajectory and utilizes native device sensors to map that flight path onto a real-world geographic coordinate system.
+An iOS application built to autonomously track a golf ball's flight path directly from mobile camera footage. The system processes video frames to identify the ball's trajectory and uses native device sensors to map the flight path onto a coordinate system.
 
 ## Tech Stack
 * Swift
@@ -12,9 +12,9 @@ An iOS application built to autonomously track a golf ball's flight path directl
 * CoreLocation
 
 ## Current Architecture & Features
-* Implementing device GPS and true-heading compass tracking to establish precise geographic offsets for ball flight relative to the camera position.
-* Building out the trajectory map view to overlay the tracked shot onto a native satellite course map.
-* Scaffolding a low-latency processing pipeline to handle the frame-by-frame analysis required for high-speed sports tracking.
+* Using device GPS and true-heading compass tracking to make precise geographic offsets for ball flight relative to the camera position.
+* Building out the trajectory map view to overlay the tracked shot onto a satellite course map.
+* Creating a low-latency processing pipeline to handle the frame-by-frame analysis needed for high-speed sports tracking.
 
 ## Local Setup
 
